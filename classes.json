@@ -1,0 +1,274 @@
+[
+  {
+    "type": "struct_specifier",
+    "startPosition": {
+      "row": 12,
+      "column": 0
+    },
+    "endPosition": {
+      "row": 20,
+      "column": 1
+    },
+    "children": [
+      {
+        "type": "type_identifier",
+        "startPosition": {
+          "row": 12,
+          "column": 7
+        },
+        "endPosition": {
+          "row": 12,
+          "column": 14
+        },
+        "text": "sClient"
+      },
+      {
+        "type": "field_declaration_list",
+        "startPosition": {
+          "row": 13,
+          "column": 0
+        },
+        "endPosition": {
+          "row": 20,
+          "column": 1
+        },
+        "children": [
+          {
+            "type": "field_declaration",
+            "startPosition": {
+              "row": 14,
+              "column": 2
+            },
+            "endPosition": {
+              "row": 14,
+              "column": 23
+            },
+            "children": [
+              {
+                "type": "type_identifier",
+                "startPosition": {
+                  "row": 14,
+                  "column": 2
+                },
+                "endPosition": {
+                  "row": 14,
+                  "column": 8
+                },
+                "text": "string"
+              },
+              {
+                "type": "field_identifier",
+                "startPosition": {
+                  "row": 14,
+                  "column": 9
+                },
+                "endPosition": {
+                  "row": 14,
+                  "column": 22
+                },
+                "text": "AccountNumber"
+              }
+            ]
+          },
+          {
+            "type": "field_declaration",
+            "startPosition": {
+              "row": 15,
+              "column": 2
+            },
+            "endPosition": {
+              "row": 15,
+              "column": 17
+            },
+            "children": [
+              {
+                "type": "type_identifier",
+                "startPosition": {
+                  "row": 15,
+                  "column": 2
+                },
+                "endPosition": {
+                  "row": 15,
+                  "column": 8
+                },
+                "text": "string"
+              },
+              {
+                "type": "field_identifier",
+                "startPosition": {
+                  "row": 15,
+                  "column": 9
+                },
+                "endPosition": {
+                  "row": 15,
+                  "column": 16
+                },
+                "text": "PinCode"
+              }
+            ]
+          },
+          {
+            "type": "field_declaration",
+            "startPosition": {
+              "row": 16,
+              "column": 2
+            },
+            "endPosition": {
+              "row": 16,
+              "column": 14
+            },
+            "children": [
+              {
+                "type": "type_identifier",
+                "startPosition": {
+                  "row": 16,
+                  "column": 2
+                },
+                "endPosition": {
+                  "row": 16,
+                  "column": 8
+                },
+                "text": "string"
+              },
+              {
+                "type": "field_identifier",
+                "startPosition": {
+                  "row": 16,
+                  "column": 9
+                },
+                "endPosition": {
+                  "row": 16,
+                  "column": 13
+                },
+                "text": "Name"
+              }
+            ]
+          },
+          {
+            "type": "field_declaration",
+            "startPosition": {
+              "row": 17,
+              "column": 2
+            },
+            "endPosition": {
+              "row": 17,
+              "column": 15
+            },
+            "children": [
+              {
+                "type": "type_identifier",
+                "startPosition": {
+                  "row": 17,
+                  "column": 2
+                },
+                "endPosition": {
+                  "row": 17,
+                  "column": 8
+                },
+                "text": "string"
+              },
+              {
+                "type": "field_identifier",
+                "startPosition": {
+                  "row": 17,
+                  "column": 9
+                },
+                "endPosition": {
+                  "row": 17,
+                  "column": 14
+                },
+                "text": "Phone"
+              }
+            ]
+          },
+          {
+            "type": "field_declaration",
+            "startPosition": {
+              "row": 18,
+              "column": 2
+            },
+            "endPosition": {
+              "row": 18,
+              "column": 24
+            },
+            "children": [
+              {
+                "type": "primitive_type",
+                "startPosition": {
+                  "row": 18,
+                  "column": 2
+                },
+                "endPosition": {
+                  "row": 18,
+                  "column": 8
+                },
+                "text": "double"
+              },
+              {
+                "type": "field_identifier",
+                "startPosition": {
+                  "row": 18,
+                  "column": 9
+                },
+                "endPosition": {
+                  "row": 18,
+                  "column": 23
+                },
+                "text": "AccountBalance"
+              }
+            ]
+          },
+          {
+            "type": "field_declaration",
+            "startPosition": {
+              "row": 19,
+              "column": 2
+            },
+            "endPosition": {
+              "row": 19,
+              "column": 29
+            },
+            "children": [
+              {
+                "type": "primitive_type",
+                "startPosition": {
+                  "row": 19,
+                  "column": 2
+                },
+                "endPosition": {
+                  "row": 19,
+                  "column": 6
+                },
+                "text": "bool"
+              },
+              {
+                "type": "field_identifier",
+                "startPosition": {
+                  "row": 19,
+                  "column": 7
+                },
+                "endPosition": {
+                  "row": 19,
+                  "column": 20
+                },
+                "text": "MarkForDelete"
+              },
+              {
+                "type": "false",
+                "startPosition": {
+                  "row": 19,
+                  "column": 23
+                },
+                "endPosition": {
+                  "row": 19,
+                  "column": 28
+                },
+                "text": "false"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

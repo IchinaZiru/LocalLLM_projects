@@ -1,0 +1,17 @@
+Code
+@startuml
+
+class Client {
+<<static>> interestRate : Float
++ withdraw(amount: Float) : void
++ deposit(amount: Float) : void
+}
+
+class Account {
+NumberOfWithdraws : Integer
+NumberOfDeposits : Integer
+}
+
+Client *-- "1" Account : is-owned
+
+@enduml
