@@ -1,0 +1,35 @@
+## Instruction:
+このC++のstructの内容を簡単に説明し、PlantUMLのクラス図を生成してください。
+## Input:
+{
+  "type": "struct_specifier",
+  "name": "sClient",
+  "fields": [
+    {
+      "type": "string",
+      "name": "AccountNumber"
+    },
+    {
+      "type": "string",
+      "name": "PinCode"
+    },
+    {
+      "type": "string",
+      "name": "Name"
+    },
+    {
+      "type": "string",
+      "name": "Phone"
+    },
+    {
+      "type": "double",
+      "name": "AccountBalance"
+    },
+    {
+      "type": "bool",
+      "name": "MarkForDelete"
+    }
+  ]
+}
+
+---------------------------------
