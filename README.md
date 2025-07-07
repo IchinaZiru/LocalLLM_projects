@@ -68,7 +68,7 @@ git clone https://github.com/tree-sitter/tree-sitter-cpp.git
 
 ### Generate AST
 ```bash
-node scripts/parse.j
+node scripts/parse.js
 ```
 
 ### Extract Classes/Structs
