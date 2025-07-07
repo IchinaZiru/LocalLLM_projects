@@ -76,9 +76,10 @@ java -jar puml/plantuml.jar -tpdf puml/class_diagram.puml
 ```
 
 ## Requirements
--Node.js
--Python3
--Java (OpenJDK 17+)
--PlantUML
--OpenWebUI + Ollama + StarCoder2
+
+ - Node.js
+ - Python3
+ - Java (OpenJDK 17+)
+ - PlantUML
+ - OpenWebUI + Ollama + StarCoder2
 
