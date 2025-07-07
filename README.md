@@ -49,6 +49,23 @@ npm install tree-sitter tree-sitter-cpp
 ```
 > plantuml.jarを puml/ に配置。
 
+### Clone Parser (Ex.C,C++)
+```bash
+# C 言語パーサ
+git clone https://github.com/tree-sitter/tree-sitter-c.git
+
+# C++ パーサ
+git clone https://github.com/tree-sitter/tree-sitter-cpp.git
+```
+>###  Tree-sitter パーサの探し方
+>
+>解析対象の言語に合わせて、  
+>**Tree-sitter 公式リポジトリ一覧** から対応するパーサを探して clone してください。
+>
+>公式リポジトリ一覧:  
+> [https://github.com/orgs/tree-sitter/repositories](https://github.com/orgs/tree-sitter/repositories)
+
+
 ### Generate AST
 ```bash
 node scripts/parse.j
